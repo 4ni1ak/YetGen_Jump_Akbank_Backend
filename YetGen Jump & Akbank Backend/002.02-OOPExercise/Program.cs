@@ -1,6 +1,8 @@
 ﻿using _002._02_OOPExercise;
+using _002._02_OOPExercise.ComputerComponents;
 using _002._02_OOPExercise.Entities;
 using _002._02_OOPExercise.Enums;
+using _002._02_OOPExercise.ValueObjects;
 using System.Runtime.Intrinsics.X86;
 
 #region Student
@@ -11,6 +13,8 @@ Console.WriteLine($"Name:{student1.Name} Surname:{student1.Surname}");
 Console.WriteLine($"Name:{student2.Name} Surname:{student2.Surname}");
 #endregion
 
-Computer computer1 = new Computer("Apple","MacBook","Inteli7","Corsair 16GB","WD Blue",256,CapacitySizeType.GB);
-Computer computer2= new Computer("Apple","MacBook","Inteli7","Corsair 16GB","WD Blue",256,CapacitySizeType.TB);
-Computer computer3 = new Computer("Apple","MacBook","Intel Pentium","Samsung 2GB","WD Blue",512,CapacitySizeType.MB);
+#region Computer
+Storage storage3 = new Storage("WD Blue",new Capacity(512,CapacitySizeType.GB));
+RAM memory1 = new RAM("Corsair", new Capacity(16,CapacitySizeType.GB));
+Computer computer3 = new Computer("Apple","MacBook","Intel Pentium",memory1,storage3);
+#endregion
