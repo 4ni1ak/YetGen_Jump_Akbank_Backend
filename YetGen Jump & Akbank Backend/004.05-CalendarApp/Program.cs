@@ -14,7 +14,7 @@ Meeting meeting1 = new()
     FinishTime = new DateTime(2023, 09, 18, 20, 00, 00),
     Guests = new() { "hakan@deneme.com", "mehmet@deneme.com", "ugur@deneme.com" },
 };
-Todo todol = new()
+Todo todo1 = new()
 {
     Title = "Katılımcı Geri Bildirimlerini Teslim Et",
     Details = new List<string>
@@ -25,3 +25,6 @@ Todo todol = new()
     FinishTime = new DateTime(2023, 09, 20, 22, 00, 00),
     Importance = "High Priority"
 };
+
+meeting1.GetNotification();
+todo1.GetNotification();
