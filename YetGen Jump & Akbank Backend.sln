@@ -54,9 +54,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "005.02", "005.02", "{54CAA9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008.01-PasswordGenerator", "008.01-PasswordGenerator", "{C3AB1D2C-4D45-4C58-A733-84BB31BF02C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGenerator.Presentation", "008.01-PasswordGenerator\PasswordGenerator.Presentation\PasswordGenerator.Presentation.csproj", "{C7F35F19-E2EA-4FDF-A6F1-A826F1BA8883}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordGenerator.Presentation", "008.01-PasswordGenerator\PasswordGenerator.Presentation\PasswordGenerator.Presentation.csproj", "{C7F35F19-E2EA-4FDF-A6F1-A826F1BA8883}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yetgen.PWGenerator", "008.01-PasswordGenerator\Yetgen.PWGenerator\Yetgen.PWGenerator.csproj", "{FE326195-0D95-4421-BB09-3CCDDF183905}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008.03-Entity and Linq", "008.03-Entity and Linq", "{517FAAA5-B91E-4AF1-9329-AC5860A1D902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entites", "Entites", "{06CA8DDE-1AE6-4E09-8226-2F2ED2575E16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq", "Linq", "{8AB8D819-CD4F-4233-9C91-81A9D4C79AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq.Main", "008.03-Entity and Linq\Linq\Linq.Main\Linq.Main.csproj", "{CE7E2C62-EA95-4721-9D83-F30802A60698}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -140,6 +148,10 @@ Global
 		{FE326195-0D95-4421-BB09-3CCDDF183905}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE326195-0D95-4421-BB09-3CCDDF183905}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE326195-0D95-4421-BB09-3CCDDF183905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7E2C62-EA95-4721-9D83-F30802A60698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7E2C62-EA95-4721-9D83-F30802A60698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7E2C62-EA95-4721-9D83-F30802A60698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7E2C62-EA95-4721-9D83-F30802A60698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +165,9 @@ Global
 		{ADFB7036-2699-4AE5-A174-FF7F4FC24AEE} = {3D1A9008-6381-476D-999C-9D27C5233CBF}
 		{C7F35F19-E2EA-4FDF-A6F1-A826F1BA8883} = {C3AB1D2C-4D45-4C58-A733-84BB31BF02C6}
 		{FE326195-0D95-4421-BB09-3CCDDF183905} = {C3AB1D2C-4D45-4C58-A733-84BB31BF02C6}
+		{06CA8DDE-1AE6-4E09-8226-2F2ED2575E16} = {517FAAA5-B91E-4AF1-9329-AC5860A1D902}
+		{8AB8D819-CD4F-4233-9C91-81A9D4C79AF3} = {517FAAA5-B91E-4AF1-9329-AC5860A1D902}
+		{CE7E2C62-EA95-4721-9D83-F30802A60698} = {8AB8D819-CD4F-4233-9C91-81A9D4C79AF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38B85544-AC00-4B67-B951-9BF45A2D22B6}
