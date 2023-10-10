@@ -16,7 +16,7 @@ var anotherCustomerInstance = new Customer
 
 
 NotepadService notepadService = new();
-//notepadService.SaveToNotepad(anotherCustomerInstance);
+notepadService.SaveToNotepad(anotherCustomerInstance);
 
 string customerData = notepadService.GetOnNotepad($"{FileLocations.ProjectFolder}\\Database\\Customers.txt");
 

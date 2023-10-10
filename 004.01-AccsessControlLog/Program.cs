@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Nodes;
 
-var filePath = "C:\\Users\\Bhs\\Desktop\\Yetgen-başvuru\\Yetgen-basvuru\\YetGen Jump & Akbank Backend\\000.0-Used files\\AccessControlLogs.txt";
+var filePath = "C:\\Users\\Bhs\\Desktop\\Yetgen-basvuru\\000.0-Used files\\AccessControlLogs.txt";
 
 var textFile = File.ReadAllText(filePath);
 
@@ -29,7 +29,7 @@ foreach (var splitedLine in splitedLines)
 
 Console.WriteLine(JsonSerializer.Serialize(logs));
 
-File.WriteAllText("C:\\Users\\Bhs\\Desktop\\Yetgen-başvuru\\Yetgen-basvuru\\YetGen Jump & Akbank Backend\\000.0-Used files\\AccessControlLogsJson.txt",JsonSerializer.Serialize(logs));
+File.WriteAllText("C:\\Users\\Bhs\\Desktop\\Yetgen-basvuru\\000.0-Used files\\AccessControlLogsJson.txt",JsonSerializer.Serialize(logs));
 
 Console.WriteLine("The operation was sucsesfully Comleted.");
 
