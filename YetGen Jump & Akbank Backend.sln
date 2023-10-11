@@ -80,7 +80,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Productify.Domain", "009.1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Productify.Persistence", "009.01\Infrastructure\Persistence\Productify.Persistence.csproj", "{73CCEE06-23B2-4487-A274-03164090D6DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enttites", "008.03-Entity and Linq\Enttites\Enttites\Enttites.csproj", "{908E3935-0A76-4DD7-8CD2-1AE54A97E9C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enttites", "008.03-Entity and Linq\Enttites\Enttites\Enttites.csproj", "{908E3935-0A76-4DD7-8CD2-1AE54A97E9C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "000.3-OpenAIConsoleClient", "000.3-OpenAIConsoleClient", "{5BB2C399-33E6-4E84-9334-59AFCBE96397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.Console.Client", "000.3-OpenAIConsoleClient\OpenAI.Console.Client\OpenAI.Console.Client.csproj", "{FF663DCD-A0ED-44E0-9595-EA3E3BCB73EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -184,6 +188,10 @@ Global
 		{908E3935-0A76-4DD7-8CD2-1AE54A97E9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{908E3935-0A76-4DD7-8CD2-1AE54A97E9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{908E3935-0A76-4DD7-8CD2-1AE54A97E9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF663DCD-A0ED-44E0-9595-EA3E3BCB73EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF663DCD-A0ED-44E0-9595-EA3E3BCB73EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF663DCD-A0ED-44E0-9595-EA3E3BCB73EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF663DCD-A0ED-44E0-9595-EA3E3BCB73EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,6 +215,7 @@ Global
 		{5A529600-B130-4A79-B9F8-99F97ABACABF} = {21F74221-FF49-401A-B278-FC25A46E4AAD}
 		{73CCEE06-23B2-4487-A274-03164090D6DF} = {DA40417F-CD8D-4B4A-985F-1F6147D7D0C5}
 		{908E3935-0A76-4DD7-8CD2-1AE54A97E9C1} = {06CA8DDE-1AE6-4E09-8226-2F2ED2575E16}
+		{FF663DCD-A0ED-44E0-9595-EA3E3BCB73EE} = {5BB2C399-33E6-4E84-9334-59AFCBE96397}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38B85544-AC00-4B67-B951-9BF45A2D22B6}

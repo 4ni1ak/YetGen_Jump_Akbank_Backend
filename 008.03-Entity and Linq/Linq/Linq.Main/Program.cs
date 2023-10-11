@@ -121,7 +121,7 @@ foreach (var number in firstThreeNumbers)
 #region Avarage
 numbers.Average();
 
-#endregion
+#endregion 
 
 #region Concat
 List<int> numbers2 = new List<int> { 11, 21, 31, 41, 51, 61, 71 };
