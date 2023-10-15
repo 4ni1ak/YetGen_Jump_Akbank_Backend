@@ -1,0 +1,12 @@
+﻿
+
+{
+  "ServerIP": "YOUR_SERVERIP",
+  "Port": "YOUR_PORT",
+  "Database": "YOUR_DATABASE_NAME",
+  "UserId": "YOUR_USERNAME",
+  "Password": "YOUR_PASSWORD"
+}
+/*
+
+*/
