@@ -1,9 +1,28 @@
-﻿﻿<h1>Add Product Page</h1>
+﻿@model Productify.Domain.Product
 
-<form method="post">
-    <div class="mb-3">
-        <label for="pwd" class="form-label ">Product Name:</label>
-        <input type="text" class="form-control" name="productName">
-    </div>
-    <button class="btn btn-primary">Submit</button>
-</form>
+<div class="container">
+    <h1>Add Product</h1>
+    <form asp-controller="Product" asp-action="AddProduct" method="post">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Product Name</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Type" class="form-label">Product Type</label>
+            <input asp-for="Type" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Price" class="form-label">Product Price</label>
+            <input asp-for="Price" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="BrandName" class="form-label">Brand Name</label>
+            <input asp-for="BrandName" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="StockCount" class="form-label">Stock Count</label>
+            <input asp-for="StockCount" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

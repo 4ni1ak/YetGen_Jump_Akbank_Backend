@@ -1,15 +1,18 @@
-﻿﻿@using Productify.Domain.Entities;
+﻿@using Productify.Domain;
 @model List<Product>
 
-<h1>Product List Page</h1>
+<h1>Product List</h1>
 
-<div class="container mt-3">
+<div class="container">
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Id</th>
+                <th>ID</th>
                 <th>Name</th>
-                <th>Created Date</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Brand Name</th>
+                <th>Stock Count</th>
             </tr>
         </thead>
         <tbody>
@@ -18,8 +21,11 @@
                     <tr>
                         <td>@product.Id</td>
                         <td>@product.Name</td>
-                        <td>@product.CreatedOn</td>
-                </tr>
+                        <td>@product.Type</td>
+                        <td>@product.Price</td>
+                        <td>@product.BrandName</td>
+                        <td>@product.StockCount</td>
+                    </tr>
             }
         </tbody>
     </table>

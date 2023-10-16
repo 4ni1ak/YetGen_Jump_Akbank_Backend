@@ -1,3 +1,8 @@
+
+using Microsoft.EntityFrameworkCore;
+using Productify.Persistence.Contexts;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -22,6 +27,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Product}/{action=GetAll}/{id?}");
+    pattern: "{controller=Product}/{action=AddProduct}/{id?}");
 
 app.Run();

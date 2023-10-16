@@ -8,14 +8,16 @@ using System.Threading.Tasks;
 
 namespace Productify.Persistence.Contexts
 {
-	public class ProductifyDbContext:DbContext
-	{
+    public class ProductifyDbContext : DbContext
+    {
         public DbSet<Product> Products { get; set; }
+       
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+                optionsBuilder.UseNpgsql($"Your information");
 
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-		{
-			optionsBuilder.UseInMemoryDatabase("ProductifyDb");
-		}
 
-	}
+        }
+    }
 }
