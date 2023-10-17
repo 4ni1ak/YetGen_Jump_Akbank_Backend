@@ -10,7 +10,7 @@ namespace Productify.Persistence.Contexts
 {
     public class ProductifyDbContext : DbContext
     {
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products2 { get; set; }
        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

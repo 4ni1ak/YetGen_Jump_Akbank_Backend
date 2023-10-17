@@ -46,7 +46,7 @@ namespace Productify.MVC.Controllers
 
 
                 // Product nesnesini _context'e ekleyin ve değişiklikleri kaydedin.
-                _context.Products.Add(product1);
+                _context.Products2.Add(product1);
                 _context.SaveChanges();
                 // ModelState.IsValid, formdaki verilerin doğru bir şekilde model ile eşleştiğini gösterir.
 
@@ -61,7 +61,7 @@ namespace Productify.MVC.Controllers
 
         public IActionResult GetAll()
         {
-            var products = _context.Products.ToList();
+            var products = _context.Products2.ToList();
             return View(products);
             
         }

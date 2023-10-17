@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\009.1\Core\Productify.Domain\Productify.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\Productify.Domain\Productify.Domain.csproj" />
   </ItemGroup>
 
 </Project>
