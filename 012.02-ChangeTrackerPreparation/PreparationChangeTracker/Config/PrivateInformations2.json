@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "PostgreSQL": "Server=xxxxxxx;Port=xxxxxxx;Database=xxxxxx;User Id=xxxxxxxxx;Password=xxxxxxxx;"
+
+  }
+}
