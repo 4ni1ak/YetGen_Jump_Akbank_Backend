@@ -128,11 +128,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C3318378-C0C4-44F0-A854-EE3923E99B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postman.API", "013.01-Postman\Presentation\Postman.API\Postman.API.csproj", "{5BE2047A-A44A-414A-9E17-DDB6C09DD102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postman.API", "013.01-Postman\Presentation\Postman.API\Postman.API.csproj", "{5BE2047A-A44A-414A-9E17-DDB6C09DD102}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postman.Persistence", "013.01-Postman\Infrastructure\Postman.Persistence\Postman.Persistence.csproj", "{BFF46BD9-EF93-4F99-AAFC-F14CC6D2EFE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postman.Persistence", "013.01-Postman\Infrastructure\Postman.Persistence\Postman.Persistence.csproj", "{BFF46BD9-EF93-4F99-AAFC-F14CC6D2EFE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postman.Domain", "013.01-Postman\Core\Postman.Domain\Postman.Domain.csproj", "{8FCDD37A-1E90-4649-AB16-175022CE63DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postman.Domain", "013.01-Postman\Core\Postman.Domain\Postman.Domain.csproj", "{8FCDD37A-1E90-4649-AB16-175022CE63DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "014.01-Postman2", "014.01-Postman2", "{2C70B3F8-F305-411C-91B0-04F8A681F1B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4734B09B-9EB2-436D-AD85-0B81704EEA17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A48B43DB-09DC-4575-964F-E01CBADEB809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postman2.Persistence", "014.01-Postman2\Infrastructure\Postman2.Persistence\Postman2.Persistence.csproj", "{B8DF5ED3-B1A0-49E3-B54F-5C45D972C359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postman2.Domain", "014.01-Postman2\Core\Postman2.Domain\Postman2.Domain.csproj", "{1894E052-BC64-4D17-8C5A-AB544910DD15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -288,6 +298,14 @@ Global
 		{8FCDD37A-1E90-4649-AB16-175022CE63DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FCDD37A-1E90-4649-AB16-175022CE63DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FCDD37A-1E90-4649-AB16-175022CE63DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DF5ED3-B1A0-49E3-B54F-5C45D972C359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DF5ED3-B1A0-49E3-B54F-5C45D972C359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DF5ED3-B1A0-49E3-B54F-5C45D972C359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DF5ED3-B1A0-49E3-B54F-5C45D972C359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1894E052-BC64-4D17-8C5A-AB544910DD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1894E052-BC64-4D17-8C5A-AB544910DD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1894E052-BC64-4D17-8C5A-AB544910DD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1894E052-BC64-4D17-8C5A-AB544910DD15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -330,6 +348,10 @@ Global
 		{5BE2047A-A44A-414A-9E17-DDB6C09DD102} = {C3318378-C0C4-44F0-A854-EE3923E99B7D}
 		{BFF46BD9-EF93-4F99-AAFC-F14CC6D2EFE5} = {85673B3A-F3C2-4ACD-B767-ED39331F1027}
 		{8FCDD37A-1E90-4649-AB16-175022CE63DD} = {FAFA56E9-3D23-4EF7-A742-00C69057495D}
+		{4734B09B-9EB2-436D-AD85-0B81704EEA17} = {2C70B3F8-F305-411C-91B0-04F8A681F1B5}
+		{A48B43DB-09DC-4575-964F-E01CBADEB809} = {2C70B3F8-F305-411C-91B0-04F8A681F1B5}
+		{B8DF5ED3-B1A0-49E3-B54F-5C45D972C359} = {A48B43DB-09DC-4575-964F-E01CBADEB809}
+		{1894E052-BC64-4D17-8C5A-AB544910DD15} = {4734B09B-9EB2-436D-AD85-0B81704EEA17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38B85544-AC00-4B67-B951-9BF45A2D22B6}
