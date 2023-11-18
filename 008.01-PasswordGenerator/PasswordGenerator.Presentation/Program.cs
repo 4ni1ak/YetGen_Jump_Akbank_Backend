@@ -1,6 +1,6 @@
 ﻿using Yetgen.PWGenerator;
 
-var passwordGenerator = new PasswordGenerator();
+var passwordGenerator = new PasswordsGenerator();
 
 Console.WriteLine("Please enter the desired length for your password.");
 

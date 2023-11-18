@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Yetgen.PWGenerator
 {
-    public class PasswordGenerator
+    public class PasswordsGenerator
     {
         private readonly Random _random;
 
@@ -16,7 +16,7 @@ namespace Yetgen.PWGenerator
         private const string UpperCaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         private const string Full = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()";
 
-        public PasswordGenerator()
+        public PasswordsGenerator()
         {
             _random = new Random();
         }
