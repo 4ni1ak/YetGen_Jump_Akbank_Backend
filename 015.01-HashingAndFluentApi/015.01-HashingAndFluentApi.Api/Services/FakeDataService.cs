@@ -31,9 +31,9 @@ namespace _015._01_HashingAndFluentApi.Api.Services
                 .RuleFor(s => s.Age, f => Convert.ToInt16(_random.Next(10, 59)))
                 .RuleFor(s => s.RegistrationFee, f => _random.Next(0, 9999))
                 .RuleFor(s => s.CreatedOn, f => DateTimeOffset.UtcNow)
-                .RuleFor(s => s.CreatedByUserId, f => "KalayMaster");
+                .RuleFor(s => s.CreatedByUserId, f => "4ni1");
 
-            var students = fakeStudentRules.Generate(10000);
+            var students = fakeStudentRules.Generate(300);
 
             foreach (var student in students)
                 student.Id = Guid.NewGuid();
